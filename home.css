@@ -1,0 +1,16 @@
+body {
+  background-image: url("water\ wave.gif");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+header p {
+  margin: 0;
+  color: rgb(166, 231, 255);
+  font-weight: 900;
+  font-size: clamp(16px, 3.5vw, 60px);
+  white-space: nowrap;
+}
